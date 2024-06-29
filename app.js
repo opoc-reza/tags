@@ -34,6 +34,7 @@ function summonTodo(item) {
     console.log(con);
     let newNote = {
       title: con,
+      time : backTime()
     };
     notes.push(newNote);
   });
@@ -57,7 +58,7 @@ function generatorTodo(items) {
     contents.insertAdjacentHTML(
       "afterbegin",
       `
-                        <div title="${backTime()}" class="content">
+                        <div title="${item.time}" class="content">
                 <div class="content__title">${item.title}</div>
                 <span class="content__close" onclick="deleteHandler(this, ${index})">+</span>
             </div>
