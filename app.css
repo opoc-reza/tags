@@ -1,0 +1,118 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inheritz;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: rgb(98, 98, 222);
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+
+/* start */
+
+.wrapper {
+    max-width: 60rem;
+    margin: 10rem auto;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.wrapper__title {
+    font-size: 5rem;
+
+}
+.wrapper__supTitle {
+    font-size: 2rem;
+    opacity: 0.8;
+    margin: 1rem 0;
+
+}
+.contents {
+    padding: 2rem;
+    border: 3px solid #a7a7a7;
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+.content {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e2e2;
+    border-radius: 0.5rem;
+    border: 1px solid #c6c4c4;
+    width: 15rem;
+    flex-grow: 1;
+}
+.content__title {
+    font-size: 2rem;
+}
+.content__close {
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: aliceblue;
+    rotate: 45deg;
+    font-size: 3rem;
+}
+.wrapper__bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.wrapper-left {
+    font-size: 3rem;
+    text-shadow: 0 0 2rem red;
+
+    width: 100%;
+}
+.wrapper-left span {
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+}
+.wrapper-right {
+    background-color: rgb(91, 91, 218);
+    color: aliceblue;
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2rem auto 0 auto;
+}
+.input {
+    font-size: 2rem;
+    width: 15rem;
+    height: 5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}

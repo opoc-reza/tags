@@ -1,0 +1,27 @@
+@media (min-width : 576px) {
+    .wrapper {
+        text-align: left;
+    }
+    .content {
+        flex-grow: 0;
+    }
+    .wrapper-left {
+
+    }
+    .wrapper__bottom {
+        flex-wrap: nowrap;
+    }
+    .wrapper-right {
+        margin: 0;
+    }
+}
+@media (min-width : 768px) {
+
+
+}
+@media (min-width : 996px) {
+
+}
+@media (min-width : 1200px) {
+
+}
